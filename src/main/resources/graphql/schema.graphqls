@@ -1,0 +1,18 @@
+type Query{
+
+allUsers:[User]
+getUser(userId:Int):User
+
+}
+
+type User{
+
+    id:ID!
+    name:String
+    fatherName:String
+    address:String
+
+
+
+}
+
